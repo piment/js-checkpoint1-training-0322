@@ -12,8 +12,8 @@ test("['java'] is 0", () => {
   expect(countStudents(['java'])).toBe(0);
 });
 
-test("['js', 'JS', 'JavaScript', 'javascript', 'JaVaScRiT'] is 5", () => {
-  expect(countStudents(['js', 'JS', 'JavaScript', 'javascript', 'JaVaScRiT'])).toBe(5);
+test("['js', 'JS', 'JavaScript', 'javascript', 'JaVaScRiPT'] is 5", () => {
+  expect(countStudents(['js', 'JS', 'JavaScript', 'javascript', 'JaVaScRiPT'])).toBe(5);
 });
 
 

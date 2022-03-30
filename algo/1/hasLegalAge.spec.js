@@ -7,7 +7,7 @@ test('21, 18 and 67 return true', () => {
 });
 
 test('12, 0 and 17 return false', () => {
-  expect(thirdAngle(12)).toBe(false);
-  expect(thirdAngle(0)).toBe(false);
-  expect(thirdAngle(17)).toBe(false);
+  expect(hasLegalAge(12)).toBe(false);
+  expect(hasLegalAge(0)).toBe(false);
+  expect(hasLegalAge(17)).toBe(false);
 });
