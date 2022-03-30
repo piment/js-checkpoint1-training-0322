@@ -1,31 +1,38 @@
 /* Don't touch this ! */
 :root {
-    --primary-color: #39424E;
-    --hightlight-color: #F76C6C;
+  --primary-color: #39424e;
+  --hightlight-color: #f76c6c;
 }
 
 html {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    color: var(--primary-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: var(--primary-color);
 }
 
-body, h1, h2, h3, ul, li, a, p {
-    margin: 0;
-    padding: 0;
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    color: var(--hightlight-color);
-    text-decoration: none;
+  color: var(--hightlight-color);
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* TODO: your custom CSS below this line */

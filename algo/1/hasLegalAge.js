@@ -5,7 +5,7 @@ Crée une fonction nommée hasLegalAge, qui retourne vrai si l'âge passé en ar
 */
 
 function hasLegalAge(age) {
-  return age >= 18;
+  // TODO
 }
 
 module.exports = hasLegalAge;
