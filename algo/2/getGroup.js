@@ -5,7 +5,7 @@ Crée une fonction nommée getGroup, qui reçoit le numéro d'un élève. S'il e
 */
 
 function getGroup(studentId) {
-  // TODO
+  return studentId % 2 ? 'B' : 'A'
 }
 
 module.exports = getGroup;
