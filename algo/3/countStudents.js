@@ -5,7 +5,7 @@ Crée une fonction nommée countStudents, qui reçoit un tableau contenant les l
 */
 
 function countStudents(languages) {
-  // TODO
+  return languages.reduce((total, current) => current.match(/js|javascript/i) !== null ? total + 1: total, 0)
 }
 
 module.exports = countStudents;
