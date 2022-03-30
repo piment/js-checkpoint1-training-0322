@@ -58,7 +58,7 @@ npm run test:2 # cette commande lance les tests de l'algo 2 uniquement
 Modifie le fichier `/public/js/script.js` afin d'ajouter les fonctionnalités suivantes :
 
 - Utilise le JavaScript pour modifier le contenu du titre `h1` de la page par le texte que tu veux.
-- Ajoute un bouton `Couleur du titre` en dessous du titre `h1` dans le HTML. Lors du clic sur ce bouton, utilises un `prompt` pour demander une couleur hexadécimale à l'utilisateur (ex: "#ff0000"). Change la couleur du titre `h1` par la couleur demandée.
+- Ajoute un bouton `Couleur du titre` en dessous du titre `h1` dans le HTML. Lors du clic sur ce bouton, change la couleur du titre `h1` par la couleur de ton choix.
 - Ajoute un autre bouton `Couleur des sous-titres` au début de la balise `section` contenant les articles. Lors du clic sur ce bouton, utilises un `prompt` pour demander une couleur hexadécimale à l'utilisateur (ex: "#ff0000"). Change la couleur de tous les titres `h3` par la couleur demandée.
 - Sélectionne l'ensemble des liens `Apply now` et lors d'un clic dessus, affiche une `alert` avec le texte de ton choix.
 - Ajoute un formulaire avec un champs "Message" et un bouton "Envoyer". Lors du clic sur le bouton, ajoute le contenu du message dans le `ul` ayant la classe `messages`, tout en respectant une bonne structure html.
